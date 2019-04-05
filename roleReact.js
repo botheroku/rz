@@ -44,7 +44,7 @@ function generateEmbedFields() {
 // Client events to let you know if the bot is online and to handle any Discord.js errors
 client.on("ready", () => console.log("Bot is online!"));
 client.on('error', console.error);
-client.user.setActivity("CAPSUL_FLY", {type: "STREAMING"});
+
 
 // Handles the creation of the role reactions. Will either send the role messages separately or in an embed
 client.on("message", message => {
