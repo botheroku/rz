@@ -28,7 +28,7 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 // Function to generate the role messages, based on your settings
 function generateMessages() {
     let messages = [];
-    for (let role of roles) messages.push(`React below to get the **"${role}"** role!`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`Klik Untuk Ambil  **"${role}"**`); //DONT CHANGE THIS
     return messages;
 }
 
