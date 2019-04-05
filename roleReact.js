@@ -6,7 +6,7 @@ Silahkan Klik Emoticon Untuk Ambil Role! Klik Emoticon Nya Kembali Untuk Menghap
 `;
 const embedFooter = "Role Reactions CAPSUL_FLY"; // Must set this if "embed" is set to true
 const roles = ["KALIMANTAN", "SULAWESI", "PAPUA", "SUMATERA", "JAWA", "BALI", "MALUKU", "⏪Free Fire⏩", "⏪PUBG⏩", "⏪Mobile Legends⏩"];
-const reactions = ["🌍", "🌎", "🌏", "🌐", "☕", "🍺", "🗾", "🏁", "🚩", "🎌"];
+const reactions = ["🌍", "🌎", "🌏", "🌐", "🏳️‍🌈", "🇦🇪", "🗾", "🏁", "🚩", "🎌"];
 const embed = false; // Set to "true" if you want all roles to be in a single embed
 const embedColor = "#dd2423"; // Set the embed color if the "embed" variable is set to true
 const botToken = "NTYzNjQwNTgxMTAwNzk3OTUz.XKcROw.T16O0CaCpFzMK11bEErEYgkiwzc";
@@ -27,7 +27,7 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 // Function to generate the role messages, based on your settings
 function generateMessages() {
     let messages = [];
-    for (let role of roles) messages.push(`Klik Untuk Ambil  **"${role}"**`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`Klik Untuk Ambil Role **"${role}"**`); //DONT CHANGE THIS
     return messages;
 }
 
