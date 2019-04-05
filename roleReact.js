@@ -5,7 +5,7 @@ const embedMessage = `
 Silahkan Klik Emoticon Untuk Ambil Role! Klik Emoticon Nya Kembali Untuk Menghapus Role!
 `;
 const embedFooter = "Role Reactions CAPSUL_FLY"; // Must set this if "embed" is set to true
-const roles = ["🏝️ KALIMANTAN", "🏖️ SULAWESI", "🏝️ PAPUA", "🏝️ SUMATERA", "🏖️ JAWA", "🏝️ BALI", "🏖️ MALUKU", "⏪Free Fire⏩", "⏪PUBG⏩", "⏪Mobile Legends⏩"], "";
+const roles = ["🏝️ KALIMANTAN", "🏖️ SULAWESI", "🏝️ PAPUA", "🏝️ SUMATERA", "🏖️ JAWA", "🏝️ BALI", "🏖️ MALUKU", "⏪Free Fire⏩", "⏪PUBG⏩", "⏪Mobile Legends⏩"];
 const reactions = ["🏳️‍🌈", "🇦🇩", "🇦🇪", "🇦🇬", "🇦🇱", "🇦🇲", "🇦🇹", "▶️", "⏸️", "⏹️"];
 const embed = true; // Set to "true" if you want all roles to be in a single embed
 const embedColor = "#dd2423"; // Set the embed color if the "embed" variable is set to true
