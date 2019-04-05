@@ -1,4 +1,3 @@
-// Configuration & Settings
 const yourID = "402367348364935169"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "/rc"
 const initialMessage = `**CAPSUL_FLY OFFICIAL**`;
@@ -6,8 +5,8 @@ const embedMessage = `
 Silahkan Klik Emoticon Untuk Ambil Role! Klik Emoticon Nya Kembali Untuk Menghapus Role!
 `;
 const embedFooter = "Role Reactions CAPSUL_FLY"; // Must set this if "embed" is set to true
-const roles = ["Hacker", "Artist", "Public Relations", "Intern"];
-const reactions = ["💻", "🖌", "😃", "🆕"];
+const roles = ["🏝️ KALIMANTAN", "🏖️ SULAWESI", "🏝️ PAPUA", "🏝️ SUMATERA", "🏖️ JAWA", "🏝️ BALI", "🏖️ MALUKU", "⏪Free Fire⏩", "⏪PUBG⏩", "⏪Mobile Legends⏩"], "";
+const reactions = ["🏳️‍🌈", "🇦🇩", "🇦🇪", "🇦🇬", "🇦🇱", "🇦🇲", "🇦🇹", "▶️", "⏸️", "⏹️"];
 const embed = true; // Set to "true" if you want all roles to be in a single embed
 const embedColor = "#dd2423"; // Set the embed color if the "embed" variable is set to true
 const botToken = "NTYzNjQwNTgxMTAwNzk3OTUz.XKcROw.T16O0CaCpFzMK11bEErEYgkiwzc";
@@ -45,6 +44,7 @@ function generateEmbedFields() {
 // Client events to let you know if the bot is online and to handle any Discord.js errors
 client.on("ready", () => console.log("Bot is online!"));
 client.on('error', console.error);
+client.user.setActivity("CAPSUL_FLY", {type: "STREAMING"});
 
 // Handles the creation of the role reactions. Will either send the role messages separately or in an embed
 client.on("message", message => {
