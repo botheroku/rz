@@ -6,7 +6,7 @@ Silahkan Klik Emoticon Untuk Ambil Role! Klik Emoticon Nya Kembali Untuk Menghap
 `;
 const embedFooter = "Role Reactions CAPSUL_FLY"; // Must set this if "embed" is set to true
 const roles = ["KALIMANTAN", "SULAWESI", "PAPUA", "SUMATERA", "JAWA", "BALI", "MALUKU", "⏪Free Fire⏩", "⏪PUBG⏩", "⏪Mobile Legends⏩"];
-const reactions = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "🏁", "🚩", "🎌"];
+const reactions = ["🌍", "🌎", "🌏", "🌐", "⛰️", "♨️", "🗾", "🏁", "🚩", "🎌"];
 const embed = false; // Set to "true" if you want all roles to be in a single embed
 const embedColor = "#dd2423"; // Set the embed color if the "embed" variable is set to true
 const botToken = "NTYzNjQwNTgxMTAwNzk3OTUz.XKcROw.T16O0CaCpFzMK11bEErEYgkiwzc";
