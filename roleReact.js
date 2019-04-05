@@ -1,18 +1,16 @@
 // Configuration & Settings
-const yourID = "158063324699951104"; //Instructions on how to get this: https://redd.it/40zgse
-const setupCMD = "!createrolemessage"
-const initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
+const yourID = "402367348364935169"; //Instructions on how to get this: https://redd.it/40zgse
+const setupCMD = "/rc"
+const initialMessage = `**CAPSUL_FLY OFFICIAL**`;
 const embedMessage = `
-React to the emoji that matches the role you wish to receive.
-
-If you would like to remove the role, simply remove your reaction!
+Silahkan Klik Emoticon Untuk Ambil Role! Klik Emoticon Nya Kembali Untuk Menghapus Role!
 `;
-const embedFooter = "Role Reactions"; // Must set this if "embed" is set to true
+const embedFooter = "Role Reactions CAPSUL_FLY"; // Must set this if "embed" is set to true
 const roles = ["Hacker", "Artist", "Public Relations", "Intern"];
 const reactions = ["💻", "🖌", "😃", "🆕"];
 const embed = true; // Set to "true" if you want all roles to be in a single embed
 const embedColor = "#dd2423"; // Set the embed color if the "embed" variable is set to true
-const botToken = "";
+const botToken = "NTYzNjQwNTgxMTAwNzk3OTUz.XKcROw.T16O0CaCpFzMK11bEErEYgkiwzc";
 /**
  * You'll have to set this up yourself! Read more below:
  * 
